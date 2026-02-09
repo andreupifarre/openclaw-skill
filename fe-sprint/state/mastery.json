@@ -1,0 +1,21 @@
+{
+    "two_pointers": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null },
+    "sliding_window": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null },
+    "stack": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null },
+    "monotonic_stack": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null },
+    "bfs": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null },
+    "dfs": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null },
+    "binary_search": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null },
+    "heap_topk": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null },
+    "intervals": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null },
+    "backtracking": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null },
+    "dp_basics": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null },
+  
+    "debounce": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null },
+    "throttle": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null },
+    "closures": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null },
+    "promises_async": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null },
+    "event_loop": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null },
+    "dom_perf": { "alpha": 1, "beta": 1, "lastSeenISO": null, "medianMinutes": null }
+  }
+  

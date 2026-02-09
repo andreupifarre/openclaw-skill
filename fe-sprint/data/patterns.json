@@ -1,0 +1,31 @@
+{
+    "weights": {
+      "two_pointers": 5,
+      "sliding_window": 5,
+      "stack": 4,
+      "monotonic_stack": 4,
+      "bfs": 4,
+      "dfs": 4,
+      "binary_search": 4,
+      "heap_topk": 3,
+      "intervals": 3,
+      "backtracking": 2,
+      "dp_basics": 2,
+  
+      "debounce": 5,
+      "throttle": 5,
+      "closures": 5,
+      "promises_async": 5,
+      "event_loop": 5,
+      "dom_perf": 4
+    },
+    "prereqs": {
+      "sliding_window": ["two_pointers"],
+      "monotonic_stack": ["stack"],
+      "backtracking": ["dfs"],
+      "dp_basics": [],
+      "event_loop": ["promises_async"],
+      "throttle": ["debounce"]
+    }
+  }
+  

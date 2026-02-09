@@ -1,0 +1,13 @@
+{
+    "byBugType": {
+      "wrong_invariant": 0,
+      "missed_edge_case": 0,
+      "complexity_mistake": 0,
+      "implementation_bug": 0,
+      "js_event_loop_pitfall": 0,
+      "timers_cleanup": 0,
+      "communication_unclear": 0
+    },
+    "byPattern": {}
+  }
+  
