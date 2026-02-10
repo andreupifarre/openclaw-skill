@@ -1,6 +1,6 @@
 ---
 name: fe-sprint
-description: "Low-friction FAANG frontend interview prep coach. One-time indexes DesignGurus + GreatFrontEnd from your outline URLs, then runs time-aware sessions with pattern mastery, logs, drills, flashcards, and nudges. Triggers on: /fe-sprint, 'dsa now', 'study now'."
+description: Low-friction FAANG frontend interview prep coach. One-time indexes DesignGurus + GreatFrontEnd from your outline URLs, then runs time-aware sessions with pattern mastery, logs, drills, flashcards, and nudges. Triggers on: /fe-sprint, 'dsa now', 'study now'.
 user-invocable: true
 metadata: {"openclaw":{"emoji":"🧠","os":["darwin","linux"]}}
 ---
