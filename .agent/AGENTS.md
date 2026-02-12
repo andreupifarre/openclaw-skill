@@ -20,6 +20,8 @@ metadata:
 - Avoid presenting choices. Prefer defaults. Remember the last minutes value.
 
 ## Files (all relative to {baseDir})
+- In this repo, `{baseDir}` is the repository root (`.`).
+
 State:
 - {baseDir}/state/active.json
 - {baseDir}/state/mastery.json
