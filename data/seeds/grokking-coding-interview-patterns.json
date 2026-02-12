@@ -1,0 +1,415 @@
+{
+  "courseName": "Grokking the Coding Interview: Patterns for Coding Questions",
+  "provider": "DesignGurus",
+  "level": "Intermediate",
+  "studyTime": "45\u201355 h (filtered)",
+  "sections": [
+    {
+      "name": "Warmup",
+      "items": [
+        {
+          "id": "DG-001",
+          "title": "Contains Duplicate",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "DG-002",
+          "title": "Valid Palindrome",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "DG-003",
+          "title": "Valid Anagram",
+          "difficulty": "easy",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: Two Pointers",
+      "items": [
+        {
+          "id": "DG-004",
+          "title": "Triplet Sum to Zero",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-005",
+          "title": "Dutch National Flag Problem",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-006",
+          "title": "Minimum Window Sort",
+          "difficulty": "medium",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: Sliding Window",
+      "items": [
+        {
+          "id": "DG-007",
+          "title": "Longest Substring with K Distinct Characters",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-008",
+          "title": "Fruits into Baskets",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-009",
+          "title": "Longest Substring with Same Letters after Replacement",
+          "difficulty": "hard",
+          "premium": false
+        },
+        {
+          "id": "DG-010",
+          "title": "Smallest Window containing Substring",
+          "difficulty": "hard",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: Merge Intervals",
+      "items": [
+        {
+          "id": "DG-011",
+          "title": "Merge Intervals",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-012",
+          "title": "Insert Interval",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-013",
+          "title": "Minimum Meeting Rooms",
+          "difficulty": "hard",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: Cyclic Sort",
+      "items": [
+        {
+          "id": "DG-014",
+          "title": "Find the Missing Number",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "DG-015",
+          "title": "Find the Duplicate Number",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "DG-016",
+          "title": "Find the Smallest Missing Positive Number",
+          "difficulty": "medium",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: In-place Reversal of a Linked List",
+      "items": [
+        {
+          "id": "DG-017",
+          "title": "Reverse a LinkedList",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "DG-018",
+          "title": "Reverse every K-element Sub-list",
+          "difficulty": "medium",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: Monotonic Stack",
+      "items": [
+        {
+          "id": "DG-019",
+          "title": "Daily Temperatures",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "DG-020",
+          "title": "Remove K Digits",
+          "difficulty": "hard",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: Hash Maps",
+      "items": [
+        {
+          "id": "DG-021",
+          "title": "First Non-repeating Character",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "DG-022",
+          "title": "Ransom Note",
+          "difficulty": "easy",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: Tree Breadth First Search",
+      "items": [
+        {
+          "id": "DG-023",
+          "title": "Binary Tree Level Order Traversal",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "DG-024",
+          "title": "Zigzag Traversal",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-025",
+          "title": "Right View of a Binary Tree",
+          "difficulty": "easy",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: Tree Depth First Search",
+      "items": [
+        {
+          "id": "DG-026",
+          "title": "Binary Tree Path Sum",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "DG-027",
+          "title": "Tree Diameter",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-028",
+          "title": "Path with Maximum Sum",
+          "difficulty": "hard",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: Graphs",
+      "items": [
+        {
+          "id": "DG-029",
+          "title": "Graph Traversal - DFS",
+          "difficulty": "unknown",
+          "premium": false
+        },
+        {
+          "id": "DG-030",
+          "title": "Graph Traversal - BFS",
+          "difficulty": "unknown",
+          "premium": false
+        },
+        {
+          "id": "DG-031",
+          "title": "Number of Provinces",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-032",
+          "title": "Bus Routes",
+          "difficulty": "hard",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: Island (Matrix Traversal)",
+      "items": [
+        {
+          "id": "DG-033",
+          "title": "Number of Islands",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "DG-034",
+          "title": "Flood Fill",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "DG-035",
+          "title": "Number of Closed Islands",
+          "difficulty": "easy",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: Two Heaps",
+      "items": [
+        {
+          "id": "DG-036",
+          "title": "Find the Median of a Number Stream",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-037",
+          "title": "Sliding Window Median",
+          "difficulty": "hard",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: Subsets / Backtracking",
+      "items": [
+        {
+          "id": "DG-038",
+          "title": "Subsets",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "DG-039",
+          "title": "Permutations",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-040",
+          "title": "Combination Sum",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-041",
+          "title": "Word Search",
+          "difficulty": "medium",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: Modified Binary Search",
+      "items": [
+        {
+          "id": "DG-042",
+          "title": "Search in Rotated Array",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-043",
+          "title": "Find Minimum in Rotated Sorted Array",
+          "difficulty": "medium",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: Dynamic Programming (Must-Know)",
+      "items": [
+        {
+          "id": "DG-044",
+          "title": "0/1 Knapsack",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-045",
+          "title": "Equal Subset Sum Partition",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-046",
+          "title": "House Robber",
+          "difficulty": "unknown",
+          "premium": false
+        },
+        {
+          "id": "DG-047",
+          "title": "Longest Palindromic Subsequence",
+          "difficulty": "unknown",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: Trie",
+      "items": [
+        {
+          "id": "DG-048",
+          "title": "Implement Trie (Prefix Tree)",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-049",
+          "title": "Search Suggestions System",
+          "difficulty": "medium",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Pattern: Topological Sort",
+      "items": [
+        {
+          "id": "DG-050",
+          "title": "Topological Sort",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "DG-051",
+          "title": "Alien Dictionary",
+          "difficulty": "hard",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "Revision",
+      "items": [
+        {
+          "id": "DG-052",
+          "title": "Coding Patterns: A Cheat Sheet",
+          "difficulty": "unknown",
+          "premium": false
+        }
+      ]
+    }
+  ]
+}

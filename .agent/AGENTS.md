@@ -1,6 +1,6 @@
 ---
 name: fe-sprint
-description: Low-friction FAANG frontend interview prep coach. One-time indexes DesignGurus + GreatFrontEnd from your outline URLs, then runs time-aware sessions with pattern mastery, logs, drills, flashcards, and nudges. Triggers on: /fe-sprint, 'dsa now', 'study now'.
+description: Low-friction FAANG frontend interview prep coach. One-time indexes DesignGurus + GreatFrontEnd from local seed files, then runs time-aware sessions with pattern mastery, logs, drills, flashcards, and nudges. Triggers on: /fe-sprint, 'dsa now', 'study now'.
 user-invocable: true
 metadata:
   openclaw:
@@ -14,7 +14,7 @@ metadata:
 
 ## Prime directive (minimize user input)
 - The user should only need to:
-  1) Paste 2 outline/index URLs once (DesignGurus + GreatFrontEnd)
+  1) Keep 2 local seed files in `{baseDir}/data/seeds/` (DesignGurus + GreatFrontEnd)
   2) Say "DSA now" (or /fe-sprint) to get the next task
   3) Paste the solved link whenever done (assume link includes prompt + saved solution)
 - Avoid presenting choices. Prefer defaults. Remember the last minutes value.
@@ -66,7 +66,7 @@ If {baseDir}/state/active.json does not exist:
 3) Move to "INDEX_REQUEST" step (below).
 
 Default user experience:
-- First message should ask for 2 outline URLs (only once).
+- No first-run prompt is required when both default seed files exist; proceed directly to validation/indexing.
 
 ---
 
@@ -74,46 +74,39 @@ Default user experience:
 
 ## INDEX_REQUEST (only if not indexed)
 If state.active.indexingComplete != true:
-Send ONE message:
-"Paste 2 outline URLs (not a single problem):
-1) DesignGurus course/module list URL
-2) GreatFrontEnd study plan / question list URL
-Make sure I'm logged in to both in this OpenClaw browser session."
-
-When user replies, save to state.active.designGurusOutlineUrl and state.active.gfeOutlineUrl, then proceed to INDEX_VALIDATE.
+- Read seed paths from `state.active.designGurusSeedFile` and `state.active.gfeSeedFile`.
+- If missing, fallback to defaults:
+  - `{baseDir}/data/seeds/grokking-coding-interview-patterns.json`
+  - `{baseDir}/data/seeds/gfe75.json`
+- Proceed directly to INDEX_VALIDATE without asking the user.
 
 ## INDEX_VALIDATE
-For each outline URL:
-1) Open in the OpenClaw-managed browser (persistent profile).
-2) Confirm access (page loads and content is visible).
-If access fails:
-- Send: "Login in this browser session, then reply 'logged in'."
-- Retry validation.
+Validate both seed files:
+1) Check file exists and contains valid JSON.
+2) Confirm minimum expected keys:
+   - Required for both seeds: `courseName`, `provider`, `sections`
+If validation fails:
+- Send one error message with the missing/invalid file and stop.
 
 When both pass, proceed to INDEX_BUILD.
 
-## INDEX_BUILD (crawl)
+## INDEX_BUILD (seed-to-catalog transform)
 Goal: build data/catalog.json with enough metadata for pattern-aware selection.
 
 Rules:
-- Rate limit: <= 1 new page open every 2 seconds.
-- Hard cap per run: 200 problem pages indexed. If more remain, continue on next invocation without asking the user anything.
-- Never brute-force; follow only links visible from the outline pages.
+- Never crawl websites for indexing when seed files are available.
+- Deterministically transform seed records into catalog entries.
 
 Steps per platform:
-A) Open outline URL
-B) Scroll until list fully loads
-C) Collect problem links
-D) For each problem link (respect cap):
-   - Open
-   - Extract:
-     - title
-     - difficulty label if visible (easy/medium/hard else unknown)
-     - any built-in tags/categories if visible
-   - Infer patterns (if not provided) using keyword heuristics on title + prompt headings:
+A) Load both seed files
+B) Flatten `sections[].items[]` into problem items
+C) For each item:
+   - Normalize title
+   - Normalize difficulty to easy/medium/hard/unknown
+   - Infer patterns using keyword heuristics on title + category/chapter text:
      two_pointers, sliding_window, stack, monotonic_stack, bfs, dfs, binary_search, heap_topk, intervals, backtracking, dp_basics
      frontend: debounce, throttle, closures, promises_async, event_loop, dom_perf
-   - Append catalog entry.
+   - Append catalog entry with stable id and platform
 
 Catalog entry schema:
 {

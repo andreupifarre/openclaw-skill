@@ -1,0 +1,466 @@
+{
+  "courseName": "GFE75",
+  "provider": "GreatFrontEnd",
+  "level": "intermediate",
+  "studyTime": "unknown",
+  "sections": [
+    {
+      "name": "JavaScript functions",
+      "items": [
+        {
+          "id": "1",
+          "title": "Debounce",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "2",
+          "title": "Array.prototype.reduce",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "3",
+          "title": "Classnames",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "4",
+          "title": "Flatten",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "5",
+          "title": "Throttle",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "14",
+          "title": "Type Utilities II",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "15",
+          "title": "Promise.all",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "16",
+          "title": "Data Merging",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "17",
+          "title": "Deep Clone",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "18",
+          "title": "Event Emitter",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "19",
+          "title": "getElementsByStyle",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "20",
+          "title": "Function.prototype.call",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "21",
+          "title": "List Format",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "22",
+          "title": "Map Async Limit",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "23",
+          "title": "Deep Equal",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "24",
+          "title": "Promise.any",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "25",
+          "title": "Deep Omit",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "26",
+          "title": "Promisify",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "27",
+          "title": "Memoize",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "28",
+          "title": "Squash Object",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "29",
+          "title": "getElementsByClassName",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "51",
+          "title": "Curry",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "52",
+          "title": "HTML Serializer",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "53",
+          "title": "JSON.stringify",
+          "difficulty": "medium",
+          "premium": false
+        }
+      ]
+    },
+    {
+      "name": "User interface coding",
+      "items": [
+        {
+          "id": "6",
+          "title": "Todo List",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "7",
+          "title": "Contact Form",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "8",
+          "title": "Holy Grail",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "9",
+          "title": "Tabs",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "10",
+          "title": "Job Board",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "11",
+          "title": "Accordion",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "54",
+          "title": "Star Rating",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "55",
+          "title": "Image Carousel",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "56",
+          "title": "Progress Bars",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "57",
+          "title": "Like Button",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "58",
+          "title": "Traffic Light",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "59",
+          "title": "Digital Clock",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "60",
+          "title": "Stopwatch",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "61",
+          "title": "File Explorer",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "62",
+          "title": "Tic-tac-toe",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "63",
+          "title": "Transfer List",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "64",
+          "title": "Nested Checkboxes",
+          "difficulty": "hard",
+          "premium": false
+        },
+        {
+          "id": "65",
+          "title": "Modal Dialog",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "66",
+          "title": "Data Table",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "P1",
+          "title": "Undoable Counter",
+          "difficulty": "medium",
+          "premium": true
+        }
+      ]
+    },
+    {
+      "name": "System design",
+      "items": [
+        {
+          "id": "12",
+          "title": "News Feed (e.g. Facebook)",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "13",
+          "title": "Autocomplete",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "P2",
+          "title": "Image Carousel (Design)",
+          "difficulty": "medium",
+          "premium": true
+        },
+        {
+          "id": "P3",
+          "title": "Modal Dialog (Design)",
+          "difficulty": "medium",
+          "premium": true
+        },
+        {
+          "id": "P4",
+          "title": "Travel Booking (e.g. Airbnb)",
+          "difficulty": "medium",
+          "premium": true
+        },
+        {
+          "id": "P5",
+          "title": "Chat App (e.g. Messenger)",
+          "difficulty": "hard",
+          "premium": true
+        },
+        {
+          "id": "P6",
+          "title": "Video Streaming (e.g. Netflix)",
+          "difficulty": "hard",
+          "premium": true
+        },
+        {
+          "id": "P7",
+          "title": "Google Docs",
+          "difficulty": "hard",
+          "premium": true
+        }
+      ]
+    },
+    {
+      "name": "Quiz",
+      "items": [
+        {
+          "id": "30",
+          "title": "Difference between cookie, sessionStorage and localStorage",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "31",
+          "title": "Difference between <script>, <script async> and <script defer>",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "32",
+          "title": "Hoisting in JavaScript",
+          "difficulty": "hard",
+          "premium": false
+        },
+        {
+          "id": "33",
+          "title": "let vs var vs const",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "34",
+          "title": "Closures in JavaScript",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "35",
+          "title": "Event bubbling",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "36",
+          "title": "Event delegation",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "37",
+          "title": "null vs undefined vs undeclared",
+          "difficulty": "easy",
+          "premium": false
+        },
+        {
+          "id": "38",
+          "title": "CommonJS vs ES modules",
+          "difficulty": "hard",
+          "premium": false
+        },
+        {
+          "id": "39",
+          "title": "Event loop",
+          "difficulty": "hard",
+          "premium": false
+        },
+        {
+          "id": "40",
+          "title": "Promises vs callbacks",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "41",
+          "title": "Block Formatting Context (BFC)",
+          "difficulty": "hard",
+          "premium": false
+        },
+        {
+          "id": "42",
+          "title": "z-index and stacking context",
+          "difficulty": "hard",
+          "premium": false
+        },
+        {
+          "id": "43",
+          "title": "CSS selector matching in browsers",
+          "difficulty": "hard",
+          "premium": false
+        },
+        {
+          "id": "44",
+          "title": "Box model",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "45",
+          "title": "translate() vs absolute positioning",
+          "difficulty": "hard",
+          "premium": false
+        },
+        {
+          "id": "46",
+          "title": "box-sizing: border-box",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "47",
+          "title": "CSS display property",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "48",
+          "title": "CSS positioning differences",
+          "difficulty": "medium",
+          "premium": false
+        },
+        {
+          "id": "49",
+          "title": "Multilingual site concerns",
+          "difficulty": "hard",
+          "premium": false
+        },
+        {
+          "id": "50",
+          "title": "block vs inline vs inline-block",
+          "difficulty": "easy",
+          "premium": false
+        }
+      ]
+    }
+  ]
+}
